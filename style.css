@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #3e2723;
+    
+}
+
+nav h1{
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero{
+    padding: 100px 60px;
+    background-color: #f5ebe0;
+}
+
+.hero h2{
+    font-size: 50px;
+    color: #3e2723;
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+button{
+    padding: 12px 25px;
+    background-color: #3e2723;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu{
+    text-align: center;
+    padding: 70px 60px;
+    background-color: white;
+}
+
+.menu h2{
+    font-size: 35px;
+    color: #3e2723;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.menu-card{
+    width: 200px;
+    padding: 25px;
+    background-color: #f5ebe0;
+    border-radius: 10px;
+}
+
+.menu-card h3{
+    color: #3e2723;
+}
+
+.menu-card h4{
+    font-size: 20px;
+    color: #6d4c41;
+}
+
+.menu-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.menu-card{
+    width: 200px;
+    padding: 25px;
+    background-color: #f5ebe0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.about{
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 60px;
+    background-color: #f5ebe0;
+}
+
+.about-image{
+    width: 50%;
+}
+
+.about-image img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text h2{
+    font-size: 35px;
+    color: #3e2723;
+}
+
+.about-text p{
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.why-us{
+    text-align: center;
+    padding: 70px 60px;
+    background-color: white;
+}
+
+.why-us h2{
+    font-size: 35px;
+    color: #3e2723;
+}
+
+.why-us container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.why-card{
+    width: 220px;
+    padding: 30px;
+    background-color: #f5ebe0;
+    border-radius: 10px;
+}
+
+.why-card{
+     width: 220px;
+    padding: 30px;
+    background-color: #f5ebe0;
+    border-radius: 10px;
+    transition: 0.3sec;
+}
+
+.why-card:hover{
+    transform: scale(1.05);
+}
+
+.offer{
+    margin: 60px;
+    padding: 60px;
+    text-align: center;
+    background-color: #3e2723;
+    color: white;
+    border-radius: 15px;
+}
+
+.offer h2{
+    font-size: 35px;
+}
+
+.offer p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.offer h3{
+    font-size: 28px;
+}
+
+.offer button{
+    background-color: #f5ebe0;
+    color: #3e2723;
+    cursor: pointer;
+}
+
+.offer button:hover{
+    transform: scale(1.05);
+}
+
+.offer button{
+    background-color: #f5ebe0;
+    color: #3e2723;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact{
+    text-align: center;
+    padding: 70px 60px;
+    background-color: #3e2723;
+}
+
+.contact h2{
+    font-size: 35px;
+    color: #3e2723;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-card{
+    width: 220px;
+    padding: 25px;
+    background-color: #fffaf5;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.contact-card:hover{
+    transform: translateY(-5px);
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+footer h2{
+    margin-bottom: 5px;
+}
